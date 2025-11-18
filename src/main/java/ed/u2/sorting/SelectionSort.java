@@ -1,9 +1,15 @@
+/**
+ * Clase SelectionSort:
+ * Implementa el algoritmo de selección.
+ * Selecciona el mínimo del subarreglo restante y lo coloca en su posición correcta.
+ * Es un algoritmo simple y realiza pocos intercambios.
+ */
+
 package ed.u2.sorting;
 
 public final class SelectionSort {
 
-    // intercambios (swaps)
-    private static int contadorIntercambios;
+    private static int contadorIntercambios;   // Contador de swaps
 
     public static int getContadorIntercambios() {
         return contadorIntercambios;
@@ -19,6 +25,7 @@ public final class SelectionSort {
 
         if (arreglo == null || arreglo.length <= 1) return;
 
+        // Recorrer cada posición del arreglo
         for (int posicionActual = 0; posicionActual < arreglo.length - 1; posicionActual++) {
 
             int indiceMinimo = posicionActual;
@@ -28,7 +35,7 @@ public final class SelectionSort {
                 System.out.println("Buscando mínimo desde índice " + posicionActual);
             }
 
-            // Buscar el valor mínimo en el subarreglo restante
+            // Buscar el mínimo hacia la derecha
             for (int posicionBusqueda = posicionActual + 1; posicionBusqueda < arreglo.length; posicionBusqueda++) {
 
                 if (trazar) {
@@ -45,7 +52,7 @@ public final class SelectionSort {
                 }
             }
 
-            // Intercambio si el mínimo no está en la posición correcta
+            // Intercambiar si se encontró un nuevo mínimo
             if (indiceMinimo != posicionActual) {
 
                 int temporal = arreglo[posicionActual];
