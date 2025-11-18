@@ -98,7 +98,7 @@ Realizar un único intercambio y avanza hasta ordenar todo el arreglo.
 v
 ## ¿Cuándo es eficiente?
 
-Cuando los swaps son costosos. tambien cuando interesa minimizar intercambios y si se llega a requerir de simplicidad.
+Cuando los swaps son costosoS, tambien cuando interesa minimizar intercambios y si se llega a requerir de simplicidad.
 
 ```java
 Swap (SelectionSort)
