@@ -1,0 +1,11 @@
+=== BUBBLE SORT ===
+swap -> [1, 9, 8, 2]
+swap -> [1, 8, 9, 2]
+swap -> [1, 8, 2, 9]
+pasada 0 | swaps = 3
+swap -> [1, 2, 8, 9]
+pasada 1 | swaps = 1
+pasada 2 | swaps = 0
+No hubo swaps → corte temprano
+
+Total swaps = 4

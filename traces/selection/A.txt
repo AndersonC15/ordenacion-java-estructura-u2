@@ -1,0 +1,25 @@
+---- Iteración posicionActual=0 ----
+Buscando mínimo desde índice 0
+Comparando arreglo[1]=3 con arreglo[0]=8
+→ Nuevo mínimo encontrado en posición 1
+Comparando arreglo[2]=6 con arreglo[1]=3
+Comparando arreglo[3]=3 con arreglo[1]=3
+Comparando arreglo[4]=9 con arreglo[1]=3
+Intercambio entre posiciones 0 y 1
+[ 3 8 6 3 9 ]
+---- Iteración posicionActual=1 ----
+Buscando mínimo desde índice 1
+Comparando arreglo[2]=6 con arreglo[1]=8
+→ Nuevo mínimo encontrado en posición 2
+Comparando arreglo[3]=3 con arreglo[2]=6
+→ Nuevo mínimo encontrado en posición 3
+Comparando arreglo[4]=9 con arreglo[3]=3
+Intercambio entre posiciones 1 y 3
+[ 3 3 6 8 9 ]
+---- Iteración posicionActual=2 ----
+Buscando mínimo desde índice 2
+Comparando arreglo[3]=8 con arreglo[2]=6
+Comparando arreglo[4]=9 con arreglo[2]=6
+---- Iteración posicionActual=3 ----
+Buscando mínimo desde índice 3
+Comparando arreglo[4]=9 con arreglo[3]=8

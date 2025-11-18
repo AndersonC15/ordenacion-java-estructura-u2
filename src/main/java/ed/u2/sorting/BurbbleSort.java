@@ -1,17 +1,51 @@
 package ed.u2.sorting;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class BurbbleSort {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+public final class BurbbleSort {
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+    public static void sort(int[] a) {
+        sort(a, false);
+    }
+
+    public static void sort(int[] a, boolean trace) {
+        int n = a.length;
+        int totalSwaps = 0;
+
+        if (trace) {
+            System.out.println("=== BUBBLE SORT ===");
+        }
+
+        for (int pass = 0; pass < n - 1; pass++) {
+            boolean swapped = false;
+            int swapsThisPass = 0;
+
+            for (int j = 0; j < n - 1 - pass; j++) {
+                if (a[j] > a[j + 1]) {
+                    int temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
+
+                    swapped = true;
+                    swapsThisPass++;
+                    totalSwaps++;
+
+                    if (trace) {
+                        System.out.println("swap -> " + SortingUtils.toString(a));
+                    }
+                }
+            }
+
+            if (trace) {
+                System.out.println("pasada " + pass + " | swaps = " + swapsThisPass);
+            }
+
+            if (!swapped) {
+                if (trace) System.out.println("No hubo swaps → corte temprano");
+                break;
+            }
+        }
+
+        if (trace) {
+            System.out.println("\nTotal swaps = " + totalSwaps);
         }
     }
 }

@@ -1,0 +1,24 @@
+---- Iteración indiceActual=1 ----
+Valor a insertar: 3
+Mover arreglo[0] -> arreglo[1]
+[ 8 8 6 3 9 ]
+Insertar valor en posición 0
+[ 3 8 6 3 9 ]
+---- Iteración indiceActual=2 ----
+Valor a insertar: 6
+Mover arreglo[1] -> arreglo[2]
+[ 3 8 8 3 9 ]
+Insertar valor en posición 1
+[ 3 6 8 3 9 ]
+---- Iteración indiceActual=3 ----
+Valor a insertar: 3
+Mover arreglo[2] -> arreglo[3]
+[ 3 6 8 8 9 ]
+Mover arreglo[1] -> arreglo[2]
+[ 3 6 6 8 9 ]
+Insertar valor en posición 1
+[ 3 3 6 8 9 ]
+---- Iteración indiceActual=4 ----
+Valor a insertar: 9
+Insertar valor en posición 4
+[ 3 3 6 8 9 ]

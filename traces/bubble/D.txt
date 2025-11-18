@@ -1,0 +1,5 @@
+=== BUBBLE SORT ===
+pasada 0 | swaps = 0
+No hubo swaps → corte temprano
+
+Total swaps = 0

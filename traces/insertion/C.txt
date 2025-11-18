@@ -1,0 +1,16 @@
+---- Iteración indiceActual=1 ----
+Valor a insertar: 2
+Insertar valor en posición 1
+[ 1 2 3 4 5 ]
+---- Iteración indiceActual=2 ----
+Valor a insertar: 3
+Insertar valor en posición 2
+[ 1 2 3 4 5 ]
+---- Iteración indiceActual=3 ----
+Valor a insertar: 4
+Insertar valor en posición 3
+[ 1 2 3 4 5 ]
+---- Iteración indiceActual=4 ----
+Valor a insertar: 5
+Insertar valor en posición 4
+[ 1 2 3 4 5 ]

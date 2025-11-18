@@ -1,0 +1,12 @@
+---- Iteración posicionActual=0 ----
+Buscando mínimo desde índice 0
+Comparando arreglo[1]=2 con arreglo[0]=2
+Comparando arreglo[2]=2 con arreglo[0]=2
+Comparando arreglo[3]=2 con arreglo[0]=2
+---- Iteración posicionActual=1 ----
+Buscando mínimo desde índice 1
+Comparando arreglo[2]=2 con arreglo[1]=2
+Comparando arreglo[3]=2 con arreglo[1]=2
+---- Iteración posicionActual=2 ----
+Buscando mínimo desde índice 2
+Comparando arreglo[3]=2 con arreglo[2]=2
